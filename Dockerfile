@@ -69,7 +69,6 @@ RUN apt-get update && \
         ca-certificates \
         tzdata \
         libreadline8 \
-        procps \
         tini && \
     ln -s /opt/mastodon /mastodon
 
